@@ -16,19 +16,43 @@ nav{
 }
 nav ul{
     list-style: none;
-    display: block;
+    display: inline-block;
 }
 nav li{
     display: inline-block;
-    padding-right: 30px;
+    margin-right: 30px;
 }
 nav li a{
     text-decoration: none;
-    color: #000;
+    color: #555;
     cursor: pointer;
     
 }
 nav  li a .cart{
     width: 40px;
+    position: relative;
+    bottom: -10px;
+    
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.row{
+   display: flex;
+ align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.col-2 {
+flex-basis: 50%;    
+}
+.row .col-2 img{
+    width: 100%;
+    background-size: cover;
     
 }
