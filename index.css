@@ -14,3 +14,21 @@ nav{
  text-align: right;
     
 }
+nav ul{
+    list-style: none;
+    display: block;
+}
+nav li{
+    display: inline-block;
+    padding-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: #000;
+    align-items: baseline;
+    
+}
+nav  li a .cart{
+    width: 40px;
+    
+}
