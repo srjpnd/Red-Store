@@ -28,10 +28,9 @@ nav li a{
     cursor: pointer;
     
 }
-nav  li a .cart{
+ .cart{
     width: 40px;
-    position: relative;
-    bottom: -10px;
+   
     
 }
 
