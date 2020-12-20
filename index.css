@@ -9,6 +9,10 @@
   align-items: center;
   padding:20px;
 }
+.logo img{
+    width: 120px;
+    cursor: pointer;
+}
 nav{
  flex: 1;
  text-align: right;
@@ -29,9 +33,8 @@ nav li a{
     
 }
  .cart{
-    width: 40px;
-   
-    
+    width: 30px;
+    height: 30px;   
 }
 
 .container{
