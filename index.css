@@ -134,6 +134,7 @@ margin: 70px 0;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
+    transition: 0.5s;
 }
 .col-4 img{
     width: 100%;
@@ -157,8 +158,22 @@ margin: 70px 0;
     left: 50%;
 }
 .col-4 h4{
-    
+    color: #555;
+    font-weight: normal;
 }
 .col-4 p{
-    
+    font-size: 14px;
+}
+.rating{
+    transition: 0.5s;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.rating:hover
+{
+    transform: translateY(-6px);
+}
+.col-4:hover{
+    transform: translateY(-5px);
 }
