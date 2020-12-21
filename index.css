@@ -5,9 +5,8 @@
 }
 
 .main {
-    
-    
-    background-size: cover;
+
+    background: radial-gradient(#fff,#ffd6d6);
 }
 
 .navbar {
@@ -71,8 +70,9 @@ nav li a {
 }
 
 .col-2 h1 {
-    font-size: 55px;
-    line-height: 1.8em;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
 }
 
 .col-2 p {
@@ -84,15 +84,15 @@ nav li a {
 
 
 .btn {
-    display: block;
+    display: inline-block;
     width: 140px;
-    border: 1px solid #fff;
+    
     text-decoration: none;
-    background-color: orange;
-    border-radius: 15px;
-    padding: 7px 28px;
+    background: #ff523b;
+    border-radius: 30zzzzzzzzzzzzzzzzzzpx;
+    padding: 8px 30px;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 30px 0;
 }
 
 .col-2 img {
