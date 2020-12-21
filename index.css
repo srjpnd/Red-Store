@@ -9,6 +9,7 @@
 .main {
 
     background: radial-gradient(#fff,#ffd6d6);
+    
 }
 
 .navbar {
@@ -105,6 +106,8 @@ nav li a {
     padding: 50px 0;
 }
 
+/* Categories page*/
+
 .categories {
 margin: 70px 0;
     
@@ -118,8 +121,44 @@ margin: 70px 0;
 .col-3 img{
     width: 100%;
 }
-.small-img{
-  width: 1080px;
+.small-container{
+  max-width: 1080px;
   margin:auto;
   padding: 25px 0;
+}
+
+/* Featured product*/
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border: 5px;
+    position: absolute;
+    transform: translateX(-50%);
+    bottom: 0;
+    left: 50%;
+}
+.col-4 h4{
+    
+}
+.col-4 p{
+    
 }
