@@ -7,7 +7,7 @@
 }
 
 .main {
-    min-width: 1300px;
+   
     margin-bottom: 70px;
     background: radial-gradient(#fff,#ffd6d6);
     
@@ -271,4 +271,44 @@ ul{
 #copyright{
     text-align: center;
     
+}
+/*---adding responsive menu--*/
+.menu-icon{
+    width: 28px;
+    margin-left: 40px;
+}
+
+/*------meadia query for 800px display size--*/
+
+@media only screen and (max-width:800px){
+    
+    nav ul{
+        position: absolute;
+        top:70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .row {
+        text-align: center;
+    }
+    .col-2,col-3,col-4{
+        flex-basis: 100%;
+    }
 }
