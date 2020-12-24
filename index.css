@@ -121,6 +121,7 @@ margin: 70px 0;
 }
 .col-3 img{
     width: 100%;
+    margin: 15px;
 }
 .small-container{
   max-width: 1080px;
@@ -273,7 +274,7 @@ ul{
     
 }
 /*---adding responsive menu--*/
-.menu-icon{
+.menuicon{
     width: 28px;
     margin-left: 40px;
     display: none;
@@ -301,7 +302,7 @@ ul{
     nav ul li a{
         color: #fff;
     }
-    .menu-icon{
+    .menuicon{
         display: block;
         cursor: pointer;
     }

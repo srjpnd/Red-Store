@@ -7,9 +7,10 @@
     <title>Red Sports | Ecommerce Website Design</title>
     <!--adding css file-->
     <link rel="stylesheet" href="index.css">
-    <!--adding font awesome cdn link-->
-
+    
+<!--<-------------------------------------- adding cdn link of font awesome------------------------>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 
 <body>
@@ -31,7 +32,7 @@
                     </ul>
                 </nav>
                 <a href="#"><img src="images/cart.png" class="cart"></a>
-                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                <img src="images/menu.png" class="menuicon" onclick="menutoggle()">
             </div>
             <div class="row">
 
@@ -332,23 +333,27 @@
         </div>
 
     </div>
-    <!--js for menu-->
+    <!--jquery for menu-->
 
-   <script>
-     var MenuItems = document.getElementById("MenuItems");
-       
-       MenuItems.style.maxHeight="0px";
-       
-       function menutoggle(){
-           if(MenuItems.style.maxHeight="0px"){
-               MenuItems.style.maxHeight="200px";
-           }
-           else{
-               MenuItems.style.maxHeight="0px";
-           }
-       }
-       
-    </script>
+<!--------------------adding jquery--------------->
+   
+    
+   
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+            {
+                MenuItems.style.maxHeight="200px";
+            }
+        else{
+            
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
 </body>
 
 </html>
