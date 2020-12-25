@@ -386,11 +386,13 @@ input:focus {
 }
 .small-img-row{
     display: flex;
-    
+    margin-top: 20px;
+    justify-content: space-between;
 }
 .small-img-col{
-    
+    width: 100%;
     flex-basis: 24%;
+    cursor: pointer;
 }
 
 /*---adding responsive menu--*/
