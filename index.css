@@ -384,13 +384,13 @@ ul {
 input:focus {
     outline: none;
 }
-.small-gallery-container{
+.small-img-row{
     display: flex;
+    
 }
-.small-gallery-container img{
+.small-img-col{
     
-    width: 24px;
-    
+    flex-basis: 24%;
 }
 
 /*---adding responsive menu--*/
