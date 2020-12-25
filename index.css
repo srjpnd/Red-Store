@@ -344,7 +344,7 @@ ul {
 
 }
 
-/*<---------------Single product page--------------*/
+/*<---------------Single detailed product page--------------*/
 
 .single-product {
 
@@ -383,6 +383,14 @@ ul {
 
 input:focus {
     outline: none;
+}
+.small-gallery-container{
+    display: flex;
+}
+.small-gallery-container img{
+    
+    width: 24px;
+    
 }
 
 /*---adding responsive menu--*/
